@@ -11,7 +11,7 @@
 <body>
     <!-- target: _blank, _self -->
     <form action="" target="_self">
-        <!-- type: text, password, number, date, email, search, textarea -->
+        <!-- type: text, password, number, date, email, search, textarea, submit, reset, radio -->
         <h2>Register Here</h2>
         <label for="username">Username:</label>
         <input type="text" name="username" id="username" placeholder="Enter your username here">
@@ -31,10 +31,41 @@
         <label for="search">Search Here</label>
         <input type="search" id="search" name="search" placeholder="Search Here">
         <br><br>
+        
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+
+        <input type="radio" name="gender" id="others">
+        <label for="others">Others</label><br><br>
+
+
+        <label for="skills">Skills</label>
+        <input type="checkbox" id="football" name="skills">
+        <label for="football">Football</label>
+
+        <input type="checkbox" id="basketball" name="skills">
+        <label for="basketball">Basketball</label>
+
+        <input type="checkbox" id="cricket" name="skills">
+        <label for="cricket">Cricket</label>
+
+        <input type="checkbox" id="volleyball" name="skills">
+        <label for="volleyball">Volleyball</label><br><br>
+
+
+
+
+
         <label for="description">Description</label>
         <textarea name="" id="" cols="30" rows="5"></textarea>
         <br><br>
         <input type="submit" value="Login">
+        <input type="reset" value="Reset"><br><br>
+        Already Have an Accout? <a href="link.html">Login</a>
     </form>
 </body>
 
